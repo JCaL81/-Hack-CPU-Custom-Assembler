@@ -1,0 +1,37 @@
+// Fibonacci Test Program
+//
+
+// Initialize A=0; B=1; C=0;
+@A
+M=0
+@B
+M=1
+@C
+M=0
+
+// Main Loop
+
+// C = A + B
+(LOOP)
+@A
+D=M
+@B
+D=D+M
+@C
+M=D
+
+// A = B
+@B
+D=M
+@A
+M=D
+
+// B = C
+@C
+D=M
+@B
+M=D
+
+// Jump
+@LOOP
+0;JMP
