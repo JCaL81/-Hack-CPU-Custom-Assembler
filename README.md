@@ -17,3 +17,4 @@ Assembler Changelog:
 
 1.6 Added support for symbols/variable names i.e. (LOOP), @LOOP, ect. Using (anything) can denote a location in the program you can call to later with @anything allowing to easily jump. Using @anything can also be used to denote a location in memory, like the name of a variable. See example TextProgram.txt for symbols in use.
 
+1.7 Added Screen Clear support (add ^ to the end of a C command to cleaar the screen)
